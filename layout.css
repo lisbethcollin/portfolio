@@ -1,0 +1,50 @@
+main {
+  display: grid;
+}
+.grid_1-2 .grid_1-1 {
+  text-align: center;
+}
+.flex_1-1-1 {
+  display: flex;
+  margin-top: 5%;
+}
+.flex_1-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#portfolio_grid {
+  margin-top: 15%;
+}
+@media (min-width: 480px) {
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    margin-left: 2%;
+    margin-top: 5%;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2%;
+  }
+  .grid_1-1-1 {
+    display: flex;
+    background-color: #f29f05;
+    padding: 2% 2% 0;
+    margin: 5% 3%;
+    width: 90%;
+    gap: 2%;
+  }
+  .image-container {
+    flex-basis: 50%;
+  }
+  #portfolio_grid {
+    margin-top: 2%;
+  }
+}
+@media (min-width: 820px) {
+  .grid_1-2 {
+    margin-top: 2%;
+  }
+}

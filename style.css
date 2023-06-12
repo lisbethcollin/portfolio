@@ -1,0 +1,271 @@
+body {
+  background-color: #f2dc99;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: fino-sans, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #bf4904;
+}
+#forsideh1 {
+  position: relative;
+  margin: 25% -24%;
+  transform: rotate(90deg);
+  border: 25px solid #f29f05;
+  padding: 20% 2%;
+  font-size: 120px;
+}
+h2 {
+  font-family: fino-sans, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #bf4904;
+  margin: 5% 0 -5%;
+}
+footer a {
+  display: grid;
+  text-align: center;
+  margin-top: 40%;
+}
+p,
+#cv,
+#cv_border {
+  font-family: bookmania, serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: large;
+  border: 15px solid #f29f05;
+  margin: 0 2% 5%;
+  padding: 2%;
+}
+/* Portfolio side*/
+
+#portfolioh1 {
+  font-size: 80px;
+  margin-top: 0;
+}
+.border-box {
+  border: 25px solid #f29f05;
+  margin: -18% 3%;
+  padding: 7% 2%;
+  text-align: center;
+}
+.portfolioa,
+b {
+  font-family: fino, serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  /* padding-bottom: 10%; */
+}
+ul {
+  margin-top: 0;
+}
+img {
+  margin-bottom: 10%;
+}
+li {
+  font-family: fino, serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 250;
+  list-style: none;
+  margin-left: -16%;
+}
+#timeline {
+  display: none;
+}
+/* Web side */
+/* .border-box-p {
+  border: 15px solid #f29f05;
+  margin: 0 2%;
+  padding: 2%;
+} */
+.link_overskrift {
+  font-family: fino, serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 15%;
+  display: grid;
+  text-align: center;
+}
+a:hover {
+  color: #3470bf;
+  text-shadow: 2px 2px #00000029;
+}
+
+#top {
+  margin-top: -10%;
+}
+
+/* Om Mig */
+#cv p,
+#cv_border p {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+#cv_border h2 {
+  margin-bottom: 10%;
+}
+#cv_border ul {
+  text-align: left;
+}
+#cv_border ul li {
+  list-style-type: square;
+  font-family: bookmania, serif;
+  font-style: normal;
+  font-size: large;
+  margin-left: 0;
+}
+#diagram1,
+#diagram2 {
+  font-size: xx-large;
+}
+#bastard {
+  font-size: 47px;
+}
+.portfolio_h2 {
+  margin-top: 5%;
+  font-size: 40px;
+}
+/************ IPad ************/
+@media (min-width: 480px) {
+  h1 {
+    font-size: 90px;
+  }
+  /* Forside*/
+  #forsideh1 {
+    margin: 0 2%;
+    transform: rotate(0deg);
+    font-size: 170px;
+    padding: 15% 0;
+  }
+  footer a {
+    margin-top: 5%;
+  }
+
+  /* Portfolio */
+  .forsvind {
+    display: none;
+  }
+  #timeline {
+    display: grid;
+    position: relative;
+    top: -35%;
+    left: 35%;
+    width: 28%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10%;
+  }
+  .border-box {
+    border: none;
+    display: grid;
+    margin-bottom: -62%;
+  }
+  .portfolio {
+    border: 25px solid #f29f05;
+  }
+  .portfolioa {
+    font-size: 27px;
+  }
+  li {
+    margin-left: 30%;
+    text-align: left;
+  }
+  #ux_a {
+    margin-left: 2%;
+  }
+  #ani_a {
+    margin-left: 12%;
+  }
+  #ind_a {
+    margin-left: -46%;
+  }
+  #web {
+    position: relative;
+    top: 54%;
+    left: -33%;
+  }
+  #ux {
+    position: relative;
+    top: 27%;
+    left: 30%;
+  }
+  #ani {
+    position: relative;
+    top: -546%;
+    left: -24%;
+  }
+  #ind {
+    text-align: left;
+    position: relative;
+    top: -327%;
+    left: 64%;
+  }
+  .portfolio {
+    margin: 0 2%;
+  }
+  .border-box-p {
+    border: 25px solid #f29f05;
+  }
+  #top2 {
+    margin-top: -7%;
+  }
+}
+
+/************ Desktop ************/
+@media (min-width: 820px) {
+  #forsideh1 {
+    font-size: 220px;
+    padding: 10% 0;
+    border: 75px solid #f29f05;
+  }
+  h1 {
+    font-size: 120px;
+  }
+  /* Portfolio */
+  #portfolioh1 {
+    font-size: 120px;
+  }
+  #timeline {
+    top: -25%;
+    left: 38.5%;
+    width: 26%;
+  }
+  .border-box {
+    margin-bottom: -53%;
+  }
+  .portfolio {
+    margin: 0 2%;
+  }
+  .portfolioa {
+    font-size: 60px;
+  }
+  li {
+    margin-left: 31%;
+  }
+  #web {
+    top: 82%;
+    left: -33%;
+  }
+  #ux {
+    top: 82%;
+    left: 34.5%;
+  }
+  #ani {
+    top: -569%;
+    left: -22%;
+  }
+  #ind {
+    top: -321%;
+    left: 64.5%;
+  }
+  /* web */
+  main p .border-box-p {
+    margin: -3% 20% 3%;
+  }
+}
