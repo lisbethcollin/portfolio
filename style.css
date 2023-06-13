@@ -35,11 +35,21 @@ p,
   font-family: bookmania, serif;
   font-style: normal;
   font-weight: 300;
-  font-size: large;
+  font-size: 20px;
   border: 15px solid #f29f05;
   margin: 0 2% 5%;
   padding: 2%;
 }
+#cv_border {
+  margin-top: 5%;
+}
+#cv {
+  padding-top: 2%;
+  text-align: center;
+
+  margin-top: 5%;
+}
+
 /* Portfolio side*/
 
 #portfolioh1 {
@@ -138,6 +148,7 @@ a:hover {
 .om_h2 {
   margin: 0;
 }
+
 /************ IPad ************/
 @media (min-width: 480px) {
   h1 {

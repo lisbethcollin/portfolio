@@ -56,6 +56,13 @@ video {
   right: -1%;
   width: 75%;
 }
+.image-container .mig {
+  bottom: -3%;
+  height: 90%;
+}
+.image-container .me {
+  margin-top: 0;
+}
 @media (min-width: 480px) {
   .image-container:first-child {
     margin-top: 20%;
@@ -65,6 +72,11 @@ video {
   #none3,
   #none4 {
     margin-top: 0;
+  }
+  .image-container .mig {
+    bottom: 21%;
+    height: 66%;
+    right: 1%;
   }
 }
 
@@ -78,5 +90,9 @@ video {
   #none,
   #none2 {
     margin-top: 0;
+  }
+  .image-container .mig {
+    bottom: -3%;
+    height: 90%;
   }
 }
