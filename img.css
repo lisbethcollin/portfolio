@@ -42,19 +42,28 @@ video {
 .image-container .big {
   height: 85%;
 }
+.image-container .black {
+  bottom: -3%;
+  right: 4%;
+}
 .image-container .wireframe {
   bottom: -7%;
   right: -1%;
   width: 70%;
 }
-
+.image-container .skitser {
+  bottom: -8%;
+  right: -1%;
+  width: 75%;
+}
 @media (min-width: 480px) {
   .image-container:first-child {
     margin-top: 20%;
   }
   #none,
   #none2,
-  #none3 {
+  #none3,
+  #none4 {
     margin-top: 0;
   }
 }

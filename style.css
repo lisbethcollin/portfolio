@@ -99,6 +99,9 @@ a:hover {
 #top {
   margin-top: -10%;
 }
+#topux {
+  margin-top: 5%;
+}
 
 /* Om Mig */
 #cv p,
@@ -108,7 +111,7 @@ a:hover {
   padding: 0;
 }
 #cv_border h2 {
-  margin-bottom: 10%;
+  margin-bottom: 2%;
 }
 #cv_border ul {
   text-align: left;
@@ -130,6 +133,10 @@ a:hover {
 .portfolio_h2 {
   margin-top: 5%;
   font-size: 40px;
+}
+
+.om_h2 {
+  margin: 0;
 }
 /************ IPad ************/
 @media (min-width: 480px) {
@@ -215,6 +222,10 @@ a:hover {
   #top2 {
     margin-top: -7%;
   }
+  .h2_ned {
+    margin-bottom: -1%;
+    margin-top: 7%;
+  }
 }
 
 /************ Desktop ************/
@@ -267,5 +278,9 @@ a:hover {
   /* web */
   main p .border-box-p {
     margin: -3% 20% 3%;
+  }
+  #cv_border h2,
+  #cv h2 {
+    font-size: 50px;
   }
 }
